@@ -56,4 +56,6 @@ This resource is available to developers aiming to test APIs using Postman, in a
 
 3. The script will execute the integrated tests and provide feedback on the results.
 
-Feel free to reach out if you encounter any issues or have questions about the test setup. Happy testing!
+Feel free to reach out if you encounter any issues or have questions about the test setup. 
+
+**Happy testing!** :grinning:
