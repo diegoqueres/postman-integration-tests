@@ -1,0 +1,29 @@
+[
+  {
+    "apiName":"{{ Api name (e.g., 'Sales') }}",
+    "apiEnvPrefix":"{{ Environment variable prefix (e.g., 'SALE') }}",
+    "collections":[
+      {
+        "collectionUuid": "{{ Uuid of Postman collection }}",
+        "collectionName":"{{ Postman collection name }}",
+        "authEndpointUuid":"{{ Uuid of authenticarion endpoint }}",
+        "testCases":[
+          {
+            "target":"{{ Target of test case (e.g., 'Orders') }}",
+            "description":"{{ Description (e.g., 'Order purchase flow until cart checkout') }}",
+            "endpoints":[
+              {
+                "name":"{{ Name of first endpoint: 'Create cart' }}",
+                "uuid":"{{ e.g., 'a4a00306-b38b-4eb6-98d7-356a0eec0561' }}"
+              },
+              {
+                "name":"{{ Name of second endpoint: 'Add Items to Cart' }}",
+                "uuid":"{{ e.g., '9c9c1a93-19be-4086-be54-b84e44b73013' }}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
